@@ -1,13 +1,11 @@
 '.source.yaml, .text.plain':
-  'enter-description':
-    'prefix': 'description'
-    'body': 'description: ${1:"enter your description"}'
-  'apis':
-    'prefix': 'apis'
+  'start-api-spec':
+    'prefix':'start-api-spec'
     'body':"""
+      description: ${1:"enter your description"}
       apis:
-        ${1}
-      """
+        ${2}
+    """
   'ap_api_entry':
     'prefix': 'apientry'
     'body': """
