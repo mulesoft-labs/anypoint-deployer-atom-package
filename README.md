@@ -12,9 +12,9 @@ A package to help Atom users create  Anypoint Platform Deployment YAMLs
  ## Usage:
 
  1. Type start-api-spec
- <img src="img/step1.png" width="400">
- <img src="img/step2.png" width="400">
+ ![Image of step 1](img/step1.png)
+ ![Image of step 2](img/step2.png)
  2. Add api-entry(s):
- <img src="img/step4.png" width="400">
- <img src="img/step5.png" width="400">
- <img src="img/step6.png" width="500">
+ ![Image of step 4](img/step4.png)
+ ![Image of step 5](img/step5.png)
+ ![Image of step 6](img/step6.png)  
