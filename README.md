@@ -17,5 +17,4 @@ A package to help Atom users create  Anypoint Platform Deployment YAMLs
  2. Add api-entry(s):
  ![Image of step 4](img/step4.png)
  ![Image of step 5](img/step5.png)
- <img src="img/step6.png" width="1026">
- 
+ <img src="img/step6.png" width="500">
