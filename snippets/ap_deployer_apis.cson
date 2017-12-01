@@ -1,0 +1,24 @@
+'.source.yaml':
+  'enter-description':
+    'prefix': 'ap-des'
+    'body': '${1:"enter your description"}'
+  'apis':
+    'prefix': 'apis'
+    'body':
+      >
+	     ${1}
+  'ap_api_entry':
+    'prefix': 'apientry'
+    'body': """
+      - id: ${1:1}
+        name: ${2:"api name"}
+        project: ${3:"project name"}
+        muleVersion: ${4:"4.0.0"}
+        workers: ${5:"number of workers"}
+        workerType: ${6:"type of worker"}
+        policies: {$7}
+        properties:
+          api.id: {$8:1234}
+          api.name:{$9:"api-name"}
+          api.version: {$9:"1.0.0"}
+    """

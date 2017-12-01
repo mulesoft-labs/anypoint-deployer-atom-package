@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle any-point-deployer",
+        "command": "any-point-deployer:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "any-point-deployer",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "any-point-deployer:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
