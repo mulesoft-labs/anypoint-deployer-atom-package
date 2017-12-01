@@ -9,7 +9,7 @@
   'ap_api_entry':
     'prefix': 'apientry'
     'body': """
-      - id: ${1:"1"}
+      - id: ${1:1}
         name: ${2:"api name"}
         project: ${3:"project name"}
         muleVersion: ${4:"4.0.0"}
