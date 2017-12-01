@@ -1,4 +1,4 @@
 '.source.yaml':
   'enter-description':
-    'prefix': 'ap-des'
+    'prefix': 'description'
     'body': '${1:"enter your description"}'
