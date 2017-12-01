@@ -1,7 +1,7 @@
 {
   "name": "anypoint-deployer-yaml",
   "main": "./lib/anypoint-deployer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Package to specify Anypoint Deployment YAMLs",
   "keywords": [
     "yaml",
@@ -15,6 +15,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
